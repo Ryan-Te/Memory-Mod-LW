@@ -1,0 +1,824 @@
+ROM_8x4:
+    column: "Memory"
+    category: "ROM"
+    prefab:
+        blocks:
+            -
+                scale: (8, 1, 4) 
+                position: (-0.5, 0, -0.5)
+        inputs:
+            -
+                position: (-4.5, 0.5, 0)
+                rotation: (0, 0, 90)
+                length: 0.6
+            -
+                position: (-4.5, 0.5, -1)
+                rotation: (0, 0, 90)
+                length: 0.2
+            -
+                position: (1, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (0, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-1, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-2, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+        outputs:
+            -
+                position: (3, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (2, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (1, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (0, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-1, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-2, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-3, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-4, 0.5, 1.5)
+                rotation: (90, 0, 0)
+    logicCode: Ryan.Memory.ROM
+ROM_8x8:
+    column: "Memory"
+    category: "ROM"
+    prefab:
+        blocks:
+            -
+                scale: (8, 1, 4) 
+                position: (-0.5, 0, -0.5)
+        inputs:
+            -
+                position: (-4.5, 0.5, 0)
+                rotation: (0, 0, 90)
+                length: 0.6
+            -
+                position: (-4.5, 0.5, -1)
+                rotation: (0, 0, 90)
+                length: 0.2
+            -
+                position: (3, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (2, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (1, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (0, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-1, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-2, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-3, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-4, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+        outputs:
+            -
+                position: (3, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (2, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (1, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (0, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-1, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-2, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-3, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-4, 0.5, 1.5)
+                rotation: (90, 0, 0)
+    logicCode: Ryan.Memory.ROM
+ROM_8x12:
+    column: "Memory"
+    category: "ROM"
+    prefab:
+        blocks:
+            -
+                scale: (12, 1, 4) 
+                position: (-0.5, 0, -0.5)
+        inputs:
+            -
+                position: (-6.5, 0.5, 0)
+                rotation: (0, 0, 90)
+                length: 0.6
+            -
+                position: (-6.5, 0.5, -1)
+                rotation: (0, 0, 90)
+                length: 0.2
+            -
+                position: (5, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (4, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (3, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (2, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (1, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (0, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-1, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-2, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-3, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-4, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-5, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-6, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+        outputs:
+            -
+                position: (3, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (2, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (1, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (0, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-1, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-2, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-3, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-4, 0.5, 1.5)
+                rotation: (90, 0, 0)
+    logicCode: Ryan.Memory.ROM
+ROM_8x16:
+    column: "Memory"
+    category: "ROM"
+    prefab:
+        blocks:
+            -
+                scale: (16, 1, 4) 
+                position: (-0.5, 0, -0.5)
+        inputs:
+            -
+                position: (-8.5, 0.5, 0)
+                rotation: (0, 0, 90)
+                length: 0.6
+            -
+                position: (-8.5, 0.5, -1)
+                rotation: (0, 0, 90)
+                length: 0.2
+            -
+                position: (7, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (6, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (5, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (4, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (3, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (2, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (1, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (0, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-1, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-2, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-3, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-4, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-5, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-6, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-7, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-8, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+        outputs:
+            -
+                position: (3, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (2, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (1, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (0, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-1, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-2, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-3, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-4, 0.5, 1.5)
+                rotation: (90, 0, 0)
+    logicCode: Ryan.Memory.ROM
+RAM_8x4:
+    column: "Memory"
+    category: "RAM"
+    prefab:
+        blocks:
+            -
+                scale: (8, 1, 4) 
+                position: (-0.5, 0, -0.5)
+        inputs:
+            -
+                position: (-4.5, 0.5, 1)
+                rotation: (0, 0, 90)
+                length: 0.6
+            -
+                position: (-4.5, 0.5, 0)
+                rotation: (0, 0, 90)
+                length: 0.4
+            -
+                position: (-4.5, 0.5, -1)
+                rotation: (0, 0, 90)
+                length: 0.5
+            -
+                position: (-4.5, 0.5, -2)
+                rotation: (0, 0, 90)
+                length: 0.2
+            -
+                position: (3.5, 0.5, 1)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, 0)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -1)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -2)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (2, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (1, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (0, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-1, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-2, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-3, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-4, 0.5, -2.5)
+                rotation: (-90, 0, 0)
+                length: 0.6 
+        outputs:
+            -
+                position: (3, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (2, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (1, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (0, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-1, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-2, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-3, 0.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-4, 0.5, 1.5)
+                rotation: (90, 0, 0)
+    logicCode: Ryan.Memory.RAM
+RAM_8x8:
+    column: "Memory"
+    category: "RAM"
+    prefab:
+        blocks:
+            -
+                scale: (8, 1, 8) 
+                position: (-0.5, 0, -0.5)
+        inputs:
+            -
+                position: (-4.5, 0.5, 1)
+                rotation: (0, 0, 90)
+                length: 0.6
+            -
+                position: (-4.5, 0.5, 0)
+                rotation: (0, 0, 90)
+                length: 0.4
+            -
+                position: (-4.5, 0.5, -1)
+                rotation: (0, 0, 90)
+                length: 0.5
+            -
+                position: (-4.5, 0.5, -2)
+                rotation: (0, 0, 90)
+                length: 0.2
+            -
+                position: (3.5, 0.5, 3)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, 2)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, 1)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, 0)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -1)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -2)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -3)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -4)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3, 0.5, -4.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (2, 0.5, -4.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (1, 0.5, -4.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (0, 0.5, -4.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-1, 0.5, -4.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-2, 0.5, -4.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-3, 0.5, -4.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-4, 0.5, -4.5)
+                rotation: (-90, 0, 0)
+                length: 0.6 
+        outputs:
+            -
+                position: (3, 0.5, 3.5)
+                rotation: (90, 0, 0)
+            -
+                position: (2, 0.5, 3.5)
+                rotation: (90, 0, 0)
+            -
+                position: (1, 0.5, 3.5)
+                rotation: (90, 0, 0)
+            -
+                position: (0, 0.5, 3.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-1, 0.5, 3.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-2, 0.5, 3.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-3, 0.5, 3.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-4, 0.5, 3.5)
+                rotation: (90, 0, 0)
+    logicCode: Ryan.Memory.RAM
+RAM_8x12:
+    column: "Memory"
+    category: "RAM"
+    prefab:
+        blocks:
+            -
+                scale: (8, 1, 12) 
+                position: (-0.5, 0, -0.5)
+        inputs:
+            -
+                position: (-4.5, 0.5, 1)
+                rotation: (0, 0, 90)
+                length: 0.6
+            -
+                position: (-4.5, 0.5, 0)
+                rotation: (0, 0, 90)
+                length: 0.4
+            -
+                position: (-4.5, 0.5, -1)
+                rotation: (0, 0, 90)
+                length: 0.5
+            -
+                position: (-4.5, 0.5, -2)
+                rotation: (0, 0, 90)
+                length: 0.2
+            -
+                position: (3.5, 0.5, 5)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, 4)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, 3)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, 2)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, 1)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, 0)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -1)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -2)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -3)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -4)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -5)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -6)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3, 0.5, -6.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (2, 0.5, -6.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (1, 0.5, -6.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (0, 0.5, -6.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-1, 0.5, -6.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-2, 0.5, -6.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-3, 0.5, -6.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-4, 0.5, -6.5)
+                rotation: (-90, 0, 0)
+                length: 0.6 
+        outputs:
+            -
+                position: (3, 0.5, 5.5)
+                rotation: (90, 0, 0)
+            -
+                position: (2, 0.5, 5.5)
+                rotation: (90, 0, 0)
+            -
+                position: (1, 0.5, 5.5)
+                rotation: (90, 0, 0)
+            -
+                position: (0, 0.5, 5.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-1, 0.5, 5.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-2, 0.5, 5.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-3, 0.5, 5.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-4, 0.5, 5.5)
+                rotation: (90, 0, 0)
+    logicCode: Ryan.Memory.RAM
+RAM_8x16:
+    column: "Memory"
+    category: "RAM"
+    prefab:
+        blocks:
+            -
+                scale: (8, 1, 16) 
+                position: (-0.5, 0, -0.5)
+        inputs:
+            -
+                position: (-4.5, 0.5, 1)
+                rotation: (0, 0, 90)
+                length: 0.6
+            -
+                position: (-4.5, 0.5, 0)
+                rotation: (0, 0, 90)
+                length: 0.4
+            -
+                position: (-4.5, 0.5, -1)
+                rotation: (0, 0, 90)
+                length: 0.5
+            -
+                position: (-4.5, 0.5, -2)
+                rotation: (0, 0, 90)
+                length: 0.2
+            -
+                position: (3.5, 0.5, 7)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, 6)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, 5)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, 4)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, 3)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, 2)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, 1)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, 0)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -1)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -2)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -3)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -4)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -5)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -6)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -7)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3.5, 0.5, -8)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (3, 0.5, -8.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (2, 0.5, -8.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (1, 0.5, -8.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (0, 0.5, -8.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-1, 0.5, -8.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-2, 0.5, -8.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-3, 0.5, -8.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-4, 0.5, -8.5)
+                rotation: (-90, 0, 0)
+                length: 0.6 
+        outputs:
+            -
+                position: (3, 0.5, 7.5)
+                rotation: (90, 0, 0)
+            -
+                position: (2, 0.5, 7.5)
+                rotation: (90, 0, 0)
+            -
+                position: (1, 0.5, 7.5)
+                rotation: (90, 0, 0)
+            -
+                position: (0, 0.5, 7.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-1, 0.5, 7.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-2, 0.5, 7.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-3, 0.5, 7.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-4, 0.5, 7.5)
+                rotation: (90, 0, 0)
+    logicCode: Ryan.Memory.RAM
