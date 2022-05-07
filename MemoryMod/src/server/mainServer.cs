@@ -655,6 +655,12 @@ namespace Ryan.Memory
 				{
 					DataToWrite = Convert.ToByte(DataToWrite + Math.Pow(2, i - (4 + AddressWidth)) * Convert.ToInt32(this.Inputs[i].On));
 				}
+				if (Address >= Data.data.Length)
+				{
+					byte[] data2 = Data.data;
+					Array.Resize(ref data2, Address + 1);
+					Data.data = data2;
+				}
 				Data.data[Address] = DataToWrite;
 			}
 			int DataToOutput = 0;
